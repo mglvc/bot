@@ -66,8 +66,8 @@ def send_text(message):
 			bot.send_message(message.chat.id, 'Ты поддерживаешь все мои идиотские идеи')
 		elif message.text.lower() == '3':
 			bot.send_message(message.chat.id, 'В твоих объятиях хорошо и уютно')
-		elif message.text.lower() == '4':
-			bot.send_message(message.chat.id, 'Лучшая ночь - та,что мы проводим вместе')
+		elif message.text.lower() == '4'
+			bot.send_message(message.chat.id, 'Мне очень хорошо с тобой')
 		elif message.text.lower() == '5':
 			bot.send_message(message.chat.id, 'Мы можем говорить обо всем и ни о чем')
 		elif message.text.lower() == '6':
@@ -79,7 +79,7 @@ def send_text(message):
 		elif message.text.lower() == '9':
 			bot.send_message(message.chat.id, 'Когда ты рядом, мир вокруг расцветает')
 		elif message.text.lower() == '10':
-			bot.send_message(message.chat.id, 'Потому что ты всегда мне поможешь, особенно, когда дело касается программирования')
+			bot.send_message(message.chat.id, 'Потому что ты всегда мне поможешь')
 
 		elif message.text.lower() == 'я люблю тебя':
 			if flag[0] == 0:
